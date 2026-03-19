@@ -70,3 +70,39 @@ console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);       give same value as previuos 
+let userOne = {
+    email: "user@google.com",      its object store in heap so give refrence 
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"     here we change heap value so its change in original value
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+STACK (Primitive values)                HEAP (Non-Primitive values)
+
+userTwo        --------------------\
+                                     \                                         its structure 
+userOne        ----------------------->   {
+                                          email: "user@google.com",
+myYoutubename                           upi: "user@ybl"
+anothername                            }
+
+myYoutubename
+
+
