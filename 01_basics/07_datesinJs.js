@@ -1,31 +1,31 @@
 // Dates
 
 let myDate = new Date()
-// console.log(myDate.toString());
-// console.log(myDate.toDateString());
-// console.log(myDate.toLocaleString());
-// console.log(typeof myDate);
+// console.log(myDate.toString());   give date and time  
+// console.log(myDate.toDateString());   give day and date
+// console.log(myDate.toLocaleString());   give day date time
+// console.log(typeof myDate);   object
 
-// let myCreatedDate = new Date(2023, 0, 23)
-// let myCreatedDate = new Date(2023, 0, 23, 5, 3)
-// let myCreatedDate = new Date("2023-01-14")
+// let myCreatedDate = new Date(2023, 0, 23)   date formet
+// let myCreatedDate = new Date(2023, 0, 23, 5, 3)   date and time formet in which month satrt from 0
+// let myCreatedDate = new Date("2023-01-14")         in this formets month start from 01;
 let myCreatedDate = new Date("01-14-2023")
-// console.log(myCreatedDate.toLocaleString());
+// console.log(myCreatedDate.toLocaleString());    give date and time ;
 
-let myTimeStamp = Date.now()
+let myTimeStamp = Date.now() 
 
-// console.log(myTimeStamp);
-// console.log(myCreatedDate.getTime());
-// console.log(Math.floor(Date.now()/1000));
+// console.log(myTimeStamp);      time in miliseconds number formet we use to comapre other date and time stamps
+// console.log(myCreatedDate.getTime());  
+// console.log(Math.floor(Date.now()/1000));   convert in decimals     and comaprision makes easy using divide and takinf floor for avoid decimal value
 
 let newDate = new Date()
 console.log(newDate);
-console.log(newDate.getMonth() + 1);
-console.log(newDate.getDay());
+console.log(newDate.getMonth() );   give month
+console.log(newDate.getDay());     give day
 
-// `${newDate.getDay()} and the time `
+// `${newDate.getDay()} and the time `  inject it console log ;
 
-newDate.toLocaleString('default', {
+newDate.toLocaleString('default', {             can also declare it
     weekday: "long",
     
 })
