@@ -1,5 +1,5 @@
 // switch (key) {
-//     case value:
+//     case value:         switch works like if ifelse if
         
 //         break;
 
