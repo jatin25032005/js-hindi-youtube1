@@ -2,14 +2,15 @@
 const isUserloggedIn = true
 const temperature = 41
 
+
 // if ( temperature === 40 ){
 //     console.log("less than 50");
 // } else {
 //     console.log("temperature is greater than 50");
 // }
 
-// console.log("Execute");
-// <, >, <=, >=, ==, !=, ===, !==
+// console.log("Execute");      always execute 
+// <, >, <=, >=, ==, !=, === it check type and also value , !==  
 
 // const score = 200
 
@@ -18,13 +19,13 @@ const temperature = 41
 //     console.log(`User power: ${power}`);
 // }
 
-// console.log(`User power: ${power}`);
+// console.log(`User power: ${power}`);      // power is not defined due to scope
+
 
 
 // const balance = 1000
 
-// if (balance > 500) console.log("test"),console.log("test2");
-
+// if (balance > 500) console.log("test"),console.log("test2");    , lgakr nhi likhna hai not a good practise;
 // if (balance < 500) {
 //     console.log("less than 500");
 // } else if (balance < 750) {
