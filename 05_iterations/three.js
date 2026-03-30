@@ -1,4 +1,4 @@
-// for of
+// for of              higher order function
 
 // ["", "", ""]
 // [{}, {}, {}]
@@ -14,7 +14,7 @@ for (const greet of greetings) {
     //console.log(`Each char is ${greet}`)
 }
 
-// Maps
+// Maps                              contains unique value;
 
 const map = new Map()
 map.set('IN', "India")
@@ -25,11 +25,16 @@ map.set('IN', "India")
 
 // console.log(map);
 
+for (const key of map) {             all values which in map
+    // console.log(key);
+}
+
+
 for (const [key, value] of map) {
     // console.log(key, ':-', value);
 }
 
-const myObject = {
+const myObject = {                  it is not iteratable in this type using for of 
     game1: 'NFS',
     game2: 'Spiderman'
 }
