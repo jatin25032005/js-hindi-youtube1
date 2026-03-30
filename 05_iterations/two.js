@@ -16,6 +16,6 @@ while (arr < myArray.length) {
 let score = 11
 
 do {
-    console.log(`Score is ${score}`);
-    score++
+    console.log(`Score is ${score}`);         we use when we sure that for first value code always run
+    score++                                    
 } while (score <= 10);
