@@ -1,6 +1,8 @@
 const myNums = [1, 2, 3]
 
-// const myTotal = myNums.reduce(function (acc, currval) {
+// const myTotal = myNums.reduce(function (acc, currval) {          //In JavaScript, we use reduce() to process an array and turn it into a single value.
+
+Think of it like: “take all elements, combine them step-by-step, and return one final result.”
 //     console.log(`acc: ${acc} and currval: ${currval}`);
 //     return acc + currval
 // }, 0)
