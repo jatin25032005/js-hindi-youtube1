@@ -3,22 +3,30 @@
 
 // const values = coding.forEach( (item) => {
 //     //console.log(item);
-//     return item
+//     return  item              // return undefined 
 // } )
 
-// console.log(values);
+// console.log(values);            js
+                                   ruby
+                                   java 
+                                  python 
+                                   cpp
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// const newNums = myNums.filter( (num) => {
+// const newNums = myNums.filter( (num) => num>4)               give numbers which is greator than 4
+console.log(newNums);
+
+// const newNums = myNums.filter( (num) => {          if we use curly brases then we nee dto write return
 //     return num > 4
 // } )
+console.log(newNums);
 
 // const newNums = []
 
 // myNums.forEach( (num) => {
 //     if (num > 4) {
-//         newNums.push(num)
+//         newNums.push(num)                same same but not different 
 //     }
 // } )
 
@@ -39,7 +47,9 @@ const books = [
 
   let userBooks = books.filter( (bk) => bk.genre === 'History')
 
+ console.log(userBooks);           give whole book data which genre is history 
+
   userBooks = books.filter( (bk) => { 
-    return bk.publish >= 1995 && bk.genre === "History"
+    return bk.publish >= 1995 && bk.genre === "History"            if remove return than its does,t print
 })
   console.log(userBooks);
