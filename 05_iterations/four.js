@@ -1,4 +1,4 @@
-const myObject = {
+const myObject = {                                     for object we use for in loop
     js: 'javascript',
     cpp: 'C++',
     rb: "ruby",
@@ -6,13 +6,14 @@ const myObject = {
 }
 
 for (const key in myObject) {
-    //console.log(`${key} shortcut is for ${myObject[key]}`);
-}
+    //console.log(`${key} shortcut is for ${myObject[key]}`);        {key} =>  its give key value ,
+}                                                                    {myObject[key]} it give key,s value                                                                     
 
 const programming = ["js", "rb", "py", "java", "cpp"]
 
 for (const key in programming) {
-    //console.log(programming[key]);
+    //console.log(key);                    its give index becausa aaray key is index 
+    //console.log(programming[key]);       its give value on index 
 }
 
 // const map = new Map()
@@ -22,5 +23,5 @@ for (const key in programming) {
 // map.set('IN', "India")
 
 // for (const key in map) {
-//     console.log(key);
+//     console.log(key);               nothing print     map is not iteratable we cant write it as 
 // }
